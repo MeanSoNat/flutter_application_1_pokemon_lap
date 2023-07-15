@@ -35,14 +35,38 @@
 ## HomePage.dart Section
 
 ```Dart
-    body: ListView.builder(
+    class _HomePageState extends State<HomePage> {
+  List<People>? people;
+  var isLoaing = false;
+
+  @override
+  void initState() {
+    super.initState();
+    // fetch data from api
+
+    getData();
+  }
+
+  getData() {}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: ListView.builder(
         itemCount: 10,
         itemBuilder: (context, index) {
           return Container(
             child: Text('$index'),
           );
         },
-    ),    
+      ),
+    );
+  }
+}
+
 ```
 ## Install dependencies
 ```Dart
