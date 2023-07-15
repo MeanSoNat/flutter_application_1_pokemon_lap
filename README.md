@@ -32,7 +32,7 @@
     <li>Change home class to HomePage() Class</li>
     <h4>HomePage.dart Section</h4>
     <ol>
-        <li>In tag <b>body</b> use ListView.builder</li>
+        <li>In tag ***body*** use ***ListView.builder***</li>
         <p>
         body: ListView.builder(
         itemCount: 10,
