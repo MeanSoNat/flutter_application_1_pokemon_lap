@@ -10,12 +10,24 @@
     <li>Open <a href='https://app.quicktype.io'>QuickType</a></li>
     <li>select language : <b>Dart</b></li>
     <li>Paste response from ThunderClient</li>
-    <li>Click unchecked all</li>
+    <li>Click checked Null safety</li>
     <li>click copy code</li>
 </ol>
 
 ## Create Models
 <ol>
-    <li>Create folder <b>Models</b></li>
-    <li>Create file in folder name <b>people.dart</b></li>
+    <li>Create folder <b>models</b> in <b>lib</b> folder</li>
+    <li>Create file in folder Models name <b>people.dart</b></li>
+    <li>paste code</li>
+</ol>
+
+## Create Views
+<ol>
+    <li>Create folder <b>views</b> in <b>lib</b> folder</li>
+    <li>Create file in folder <b>views</b> Homepage.dart</li>
+    <li>Use key type : stful -> Enter</li>
+    <li>Type Class name HomePage</li>
+    <li>Back to main.dart</li>
+    <li>import path file Homepage.dart</li>
+    <li>Change home class to HomePage() Class</li>
 </ol>
