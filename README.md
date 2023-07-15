@@ -31,17 +31,17 @@
     <li>import path file Homepage.dart</li>
     <li>Change home class to HomePage() Class</li>
     <h4>HomePage.dart Section</h4>
-    <ol>
+<ol>
         <li>In tag <strong>body</strong> use ListView.builder</li>
         
-body: ListView.builder(
+    body: ListView.builder(
         itemCount: 10,
         itemBuilder: (context, index) {
           return Container(
             child: Text('$index'),
           );
         },
-),
+    ),
         
-    </ol>
+</ol>
 </ol>
