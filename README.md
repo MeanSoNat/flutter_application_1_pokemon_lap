@@ -32,7 +32,7 @@
     <li>Change home class to HomePage() Class</li>
     <h4>HomePage.dart Section</h4>
 <ol>
-        <li>In tag <strong>body</strong> use ListView.builder</li>
+    <li>In tag <strong>body</strong> use ListView.builder</li>
         
     body: ListView.builder(
         itemCount: 10,
@@ -43,7 +43,7 @@
         },
     ),
 
-        <li>Install dependencies</li>
+<li>Install dependencies</li>
     flutter pub add http
 </ol>
 </ol>
