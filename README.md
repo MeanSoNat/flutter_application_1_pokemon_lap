@@ -43,7 +43,11 @@
         },
     ),
 
-<li>Install dependencies</li>
+    <li>Install dependencies</li>
+
     flutter pub add http
 </ol>
 </ol>
+Don't put tabs or spaces in front of your paragraphs.
+
+Keep lines left-aligned like this.
