@@ -33,6 +33,7 @@
     <h4>HomePage.dart Section</h4>
     <ol>
         <li>In tag <b>body</b> use ListView.builder</li>
+        <p>
         body: ListView.builder(
         itemCount: 10,
         itemBuilder: (context, index) {
@@ -41,5 +42,6 @@
           );
         },
       ),
+        </p>
     </ol>
 </ol>
