@@ -4,9 +4,11 @@
 - jsonModel: https://app.quicktype.io/
 
 ## Steps
- - copy response data from test api and place it
- - select language : Dart <h1>PPPP</h1>
- - Click unchecked all
- - click copy code
+<ol>
+    <li>copy response data from test api and place it.</li>
+    <li>select language :Dart </li> 
+    <li>Click unchecked all</li>
+    <li>click copy code</li>
+</ol>
 ## Install dependencies
 - pub 
