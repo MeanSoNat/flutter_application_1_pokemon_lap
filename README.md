@@ -15,7 +15,7 @@
 </ol>
 
 ## Create Models
-    <ol>
-        <li>Create folder <b>Models</b></li>
-        <li>Create file in folder name <b>people.dart</b></li>
-    </ol>
+<ol>
+    <li>Create folder <b>Models</b></li>
+    <li>Create file in folder name <b>people.dart</b></li>
+</ol>
