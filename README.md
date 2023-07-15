@@ -30,10 +30,11 @@
     <li>Back to main.dart</li>
     <li>import path file Homepage.dart</li>
     <li>Change home class to HomePage() Class</li>
-    <h4>HomePage.dart Section</h4>
-<ol>
-    <li>In tag <strong>body</strong> use ListView.builder</li>
-        
+</ol>
+
+## HomePage.dart Section
+
+```Dart
     body: ListView.builder(
         itemCount: 10,
         itemBuilder: (context, index) {
@@ -41,12 +42,9 @@
             child: Text('$index'),
           );
         },
-    ),
-
-    <li>Install dependencies</li>
-    ```
+    ),    
+```
+## Install dependencies
+```Dart
     flutter pub add http
-    ```
-</ol>
-</ol>
-
+```
