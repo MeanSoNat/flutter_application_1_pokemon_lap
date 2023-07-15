@@ -1,3 +1,3 @@
 # USE STARWAR APIs
 - API: https://swapi.dev/api/people
--- UWU
+- jsonModel: https://app.quicktype.io/
