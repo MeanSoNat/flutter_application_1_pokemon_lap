@@ -42,6 +42,8 @@
           );
         },
     ),
-        
+
+        <li>Install dependencies</li>
+    flutter pub add http
 </ol>
 </ol>
