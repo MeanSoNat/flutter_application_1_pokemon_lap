@@ -33,15 +33,15 @@
     <h4>HomePage.dart Section</h4>
     <ol>
         <li>In tag <strong>body</strong> use ListView.builder</li>
-        <p>
-        body: ListView.builder(
+        
+body: ListView.builder(
         itemCount: 10,
         itemBuilder: (context, index) {
           return Container(
             child: Text('$index'),
           );
         },
-      ),
-        </p>
+),
+        
     </ol>
 </ol>
